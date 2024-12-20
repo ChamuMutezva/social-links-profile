@@ -126,12 +126,13 @@ select {
     --spacing-500: 40px;
     --spacing-300: 24px;
     --spacing-200: 16px;
+    --spacing-175: 14px;
     --spacing-150: 12px;
     --spacing-100: 8px;
     --spacing-50: 4px;
 
-     /* Font variables */
-    --font-family: "Inter Variable", sans-serif;  /* Default font family */
+    /* Font variables */
+    --font-family: "Inter Variable", sans-serif; /* Default font family */
     --line-height: 1.5; /* Default line height */
     --font-size-title: 1.5rem; /* Title font size */
     --font-size-content: 0.875rem; /* Content font size */
@@ -169,7 +170,7 @@ select {
     width: 88px;
     height: 88px;
 }
-.link {
+.link {    
     color: var(--white);
     display: block;
     width: 100%;
@@ -187,16 +188,41 @@ select {
         color: var(--grey-900);
     }
 }
+.twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 .title,
 .main-text {
     text-align: center;
 }
 .title {
-    margin-block: var(--spacing-200);
+    margin-block-start: var(--spacing-200);
 }
 .text-location {
     color: var(--green);
+    font-size: var(--font-size-content);
+    font-weight: 800;
 }
 .profile-container {
     margin-bottom: var(--spacing-200);
+}
+
+.main-text-description {
+    font-size: var(--font-size-content);
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    /* added line */
+    border: 0;
 }
