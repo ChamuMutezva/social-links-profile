@@ -2,8 +2,7 @@
 @font-face {
     font-family: "Inter Variable";
     src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
-        format("truetype");
-    src: url("RobotoFlex-VF.woff2") format("woff2") tech("variations");
+        format("truetype");    
     font-weight: 100 900;
     font-style: normal;
 }
@@ -170,7 +169,7 @@ select {
     width: 88px;
     height: 88px;
 }
-.link {    
+.link {
     color: var(--white);
     display: block;
     width: 100%;
@@ -192,7 +191,6 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 .title,
 .main-text {
